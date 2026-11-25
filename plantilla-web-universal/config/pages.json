@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "",
+    "source": "inicio.html",
+    "label": "Inicio",
+    "inNav": true,
+    "title": "Inicio | Empresa de ejemplo",
+    "description": "Plantilla demostrativa de web corporativa. Personaliza el negocio, los servicios y el contenido antes de publicarla."
+  },
+  {
+    "slug": "servicios",
+    "source": "servicios.html",
+    "label": "Servicios",
+    "inNav": true,
+    "title": "Servicios | Empresa de ejemplo",
+    "description": "Conoce los servicios disponibles y solicita informacion personalizada."
+  },
+  {
+    "slug": "nosotros",
+    "source": "nosotros.html",
+    "label": "Nosotros",
+    "inNav": true,
+    "title": "Nosotros | Empresa de ejemplo",
+    "description": "Conoce nuestro equipo y nuestra forma de trabajar."
+  },
+  {
+    "slug": "contacto",
+    "source": "contacto.html",
+    "label": "Contacto",
+    "inNav": true,
+    "title": "Contacto | Empresa de ejemplo",
+    "description": "Consulta nuestros datos de contacto y solicita información sobre nuestros servicios."
+  },
+  {
+    "slug": "privacidad",
+    "source": "privacidad.html",
+    "label": "Privacidad",
+    "inNav": false,
+    "noindex": true,
+    "title": "Privacidad | Empresa de ejemplo",
+    "description": "Informacion sobre privacidad y proteccion de datos."
+  },
+  {
+    "slug": "aviso-legal",
+    "source": "aviso-legal.html",
+    "label": "Aviso legal",
+    "inNav": false,
+    "noindex": true,
+    "title": "Aviso legal | Empresa de ejemplo",
+    "description": "Informacion legal del titular del sitio."
+  }
+]

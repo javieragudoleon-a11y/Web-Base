@@ -1,0 +1,51 @@
+{
+  "businessName": "Empresa de ejemplo",
+  "tagline": "Soluciones pensadas para tus necesidades",
+  "city": "Municipio del cliente",
+  "siteUrl": "",
+  "language": "es",
+  "theme": "tecnologico",
+  "brand": {
+    "logo": "",
+    "colors": {}
+  },
+  "contactEmail": "",
+  "contactPhone": "",
+  "contactEnabled": false,
+  "turnstileSiteKey": "",
+  "modules": {
+    "whatsapp": {
+      "enabled": false,
+      "number": "",
+      "message": "Hola, quiero solicitar informacion."
+    },
+    "gallery": {
+      "enabled": false,
+      "title": "Galería",
+      "items": []
+    }
+  },
+  "seo": {
+    "type": "LocalBusiness",
+    "description": "",
+    "shareImage": "",
+    "address": {
+      "streetAddress": "",
+      "addressLocality": "",
+      "addressRegion": "",
+      "postalCode": "",
+      "addressCountry": "ES"
+    },
+    "areaServed": [],
+    "sameAs": []
+  },
+  "legalReviewed": false,
+  "readyForIndexing": false,
+  "design": {
+    "motion": true,
+    "heroImage": "",
+    "heroAlt": "",
+    "heroCaption": "",
+    "heroPosition": "center"
+  }
+}

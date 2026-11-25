@@ -1,0 +1,13 @@
+<form id="lead-form" action="/api/contact" method="post" data-enabled="true">
+  <div class="form-row"><label for="nombre">Nombre *</label><input id="nombre" name="name" type="text" autocomplete="name" minlength="2" maxlength="100" required></div>
+  <div class="form-row"><label for="email">Correo electronico *</label><input id="email" name="email" type="email" autocomplete="email" maxlength="200" required></div>
+  <div class="form-row"><label for="telefono">Telefono (opcional)</label><input id="telefono" name="phone" type="tel" autocomplete="tel" maxlength="30"></div>
+  <div class="form-row"><label for="servicio">Que servicio te interesa</label><select id="servicio" name="service"><option value="Informacion general">Informacion general</option></select></div>
+  <div class="form-row"><label for="mensaje">Como podemos ayudarte *</label><textarea id="mensaje" name="message" rows="5" minlength="10" maxlength="2000" required></textarea></div>
+  <div class="honeypot" aria-hidden="true"><label for="webempresa">No completar</label><input id="webempresa" name="website" tabindex="-1" autocomplete="off"></div>
+  <div class="form-row check-row"><input id="privacidad" name="privacy" type="checkbox" value="accepted" required><label for="privacidad">He leido la <a href="/privacidad/">politica de privacidad</a> y acepto el tratamiento de mis datos para responder a esta solicitud. *</label></div>
+  {{TURNSTILE_WIDGET}}
+  <noscript><p>Activa JavaScript para enviar el formulario o utiliza los datos de contacto.</p></noscript>
+  <button type="submit" class="btn btn-primary" disabled>Enviar solicitud</button>
+  <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+</form>

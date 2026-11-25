@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <meta name="robots" content="{{ROBOTS}}">
+  {{CANONICAL}}
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="{{BUSINESS_NAME}}">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  {{OG_URL}}
+  {{OG_IMAGE}}
+  {{STRUCTURED_DATA}}
+  <meta name="theme-color" content="{{THEME_COLOR}}">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/theme.css">
+  <script src="/assets/js/site.js" type="module"></script>
+  {{TURNSTILE_SCRIPT}}
+</head>
+<body data-theme="{{THEME}}" data-motion="{{MOTION}}">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  {{HEADER}}
+  <main id="contenido">{{CONTENT}}</main>
+  {{FOOTER}}
+</body>
+</html>

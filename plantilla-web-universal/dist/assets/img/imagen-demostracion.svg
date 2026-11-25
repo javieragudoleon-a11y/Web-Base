@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="titulo descripcion">
+<title id="titulo">Ilustracion de demostracion</title><desc id="descripcion">Formas abstractas naturales para reemplazar por una fotografia real del negocio</desc>
+<defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#d4c9ae"/><stop offset="1" stop-color="#8aa59a"/></linearGradient></defs>
+<rect width="720" height="560" fill="url(#g)"/><path d="M-30 505C153 374 237 460 350 357c105-99 212-47 385-154V590H0Z" fill="#496c60" opacity=".76"/><circle cx="535" cy="143" r="85" fill="#eee1c2" opacity=".83"/><path d="M58 505h610" stroke="#eee7da" stroke-width="3"/><g fill="none" stroke="#edf1e4" stroke-width="3" opacity=".8"><path d="M52 510c50-120 89-154 140-223"/><path d="M145 510c38-95 99-160 156-193"/></g></svg>

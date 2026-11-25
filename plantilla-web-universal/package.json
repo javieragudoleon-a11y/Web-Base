@@ -1,0 +1,19 @@
+{
+  "name": "leovex-plantilla-web",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Base universal para webs corporativas HTML/CSS/JS sin frameworks",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "build:production": "node scripts/build.mjs --production",
+    "build:cloudflare": "node scripts/cloudflare-build.mjs",
+    "qa": "npm run build && npm run check && npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
